@@ -14,7 +14,7 @@ const ManageCoursePage = (props) => {
   function handleChange({ target }) {
     const updatedCourse = {
       ...course,
-      [target.name]: target.value,
+      [target.name]: target.value
     };
     setCourse(updatedCourse);
   }
@@ -22,7 +22,7 @@ const ManageCoursePage = (props) => {
   return (
     <>
       <h2>Manage Course</h2>
-      <CourseForm course={course} onTitleChange={handleChange} />
+      <CourseForm course={course} onChange={handleChange} />
     </>
   );
 };
