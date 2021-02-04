@@ -77,6 +77,22 @@
       "authorId": 2,
       "category": "Best Courses in The World",
       "createdAt": 1612414616351
+    },
+    {
+      "id": 12,
+      "slug": "marker-clustering",
+      "title": "Marker Clustering",
+      "authorId": 1,
+      "category": "Mapping Components",
+      "createdAt": 1612415202554
+    },
+    {
+      "id": 13,
+      "slug": "locations",
+      "title": "Locations",
+      "authorId": 1,
+      "category": "Maps",
+      "createdAt": 1612415441466
     }
   ],
   "authors": [
